@@ -12,7 +12,10 @@ import org.springframework.web.bind.annotation.*;
 public class RpcShopController {
     @GetMapping("sayHello")
     public String sayHello(@RequestParam("name") String name) {
+        System.out.println("name = " + name);
         return "台湾嫩模：" + name;
+
+
     }
 }
 

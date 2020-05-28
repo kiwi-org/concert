@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+#项目服务
+spring:
+  application:
+    name: auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  security:
+    user:
+      # 配置登录用户名和密码
+      name: root
+      password: root
+  boot:
+    admin:
+      discovery:
+        # 不显示admin-security-server的监控信息
+        ignored-services: ${spring.application.name}
+      context-path:

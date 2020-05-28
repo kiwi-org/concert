@@ -18,4 +18,27 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
+  #配置微服务访问路径（默认为服务名）
+  routes:
+    service-provider: /nacos/**
+
+
+#端点的启用和暴露
+#启用端点：默认情况下，除了shutdown端点是关闭的，其它的都是启用的。配置一个端点的启用，使用management.endpoint..enabled属性，下面的例子是启用shutdown端点：
+   #management.endpoint.shutdown.enabled=true
+#自定义端点(关闭所有端点并启用info端点)
+   #management.endpoints.enabled-by-default=false
+   #management.endpoint.info.enabled=true:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      ##默认是never
+      show-details: ALWAYS
+      enabled: true
+    routes:
+      enabled: true
 
