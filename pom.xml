@@ -17,6 +17,7 @@
         <module>concert-nacos</module>
         <module>concert-gateway</module>
         <module>concert-auth</module>
+        <module>concert-sentinel</module>
     </modules>
     <packaging>pom</packaging>
     <description>音乐中心</description>
