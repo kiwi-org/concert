@@ -11,5 +11,11 @@
 
     <artifactId>concert-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.concert</groupId>
+            <artifactId>concert-service-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -30,6 +30,53 @@
     <!--依赖版本管理-->
     <dependencyManagement>
         <dependencies>
+            <!--Module-->
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-service-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-dal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-auth</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-biz</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-gateway</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-nacos</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.concert</groupId>
+                <artifactId>concert-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!--整合Spring Cloud-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
