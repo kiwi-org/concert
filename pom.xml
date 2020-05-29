@@ -22,6 +22,7 @@
         <module>concert-common</module>
         <module>concert-dal</module>
         <module>concert-service-api</module>
+        <module>concert-service</module>
     </modules>
     <packaging>pom</packaging>
     <description>音乐中心</description>
