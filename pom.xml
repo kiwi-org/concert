@@ -27,6 +27,15 @@
     <packaging>pom</packaging>
     <description>音乐中心</description>
 
+    <!--父项目依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
     <!--依赖版本管理-->
     <dependencyManagement>
         <dependencies>
