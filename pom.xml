@@ -20,6 +20,7 @@
         <module>concert-web</module>
         <module>concert-biz</module>
         <module>concert-common</module>
+        <module>concert-dal</module>
     </modules>
     <packaging>pom</packaging>
     <description>音乐中心</description>
