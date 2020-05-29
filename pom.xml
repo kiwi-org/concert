@@ -18,6 +18,7 @@
         <module>concert-gateway</module>
         <module>concert-auth</module>
         <module>concert-web</module>
+        <module>concert-biz</module>
     </modules>
     <packaging>pom</packaging>
     <description>音乐中心</description>
